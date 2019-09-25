@@ -1,6 +1,6 @@
 <template>
   <div style="display: inline-block">
-    <span style="margin:0 10px 0 20px;">统计粒度</span>
+    <span style="margin:0 10px 0 20px;">粒度</span>
     <el-select
       @change="changeSelect"
       style="width:100px;margin-right:10px;"
@@ -15,7 +15,7 @@
       />
     </el-select>
 
-    <span style="margin-right: 10px;">录音时间</span>
+    <span style="margin-right: 10px;">时间</span>
     <div style="display: inline-block">
       <high-datepicker
         v-model="startTime"
